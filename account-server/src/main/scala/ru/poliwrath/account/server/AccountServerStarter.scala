@@ -1,7 +1,12 @@
 package ru.poliwrath.account.server
 
+import org.slf4j.{Logger, LoggerFactory}
+
 object AccountServerStarter extends App{
 
-  System.out.println("Account server started")
+  val logger = LoggerFactory.getLogger(AccountServerStarter.getClass)
+
+  logger.info("Account server started")
+
 
 }
