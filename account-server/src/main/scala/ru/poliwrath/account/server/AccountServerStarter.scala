@@ -1,5 +1,7 @@
 package ru.poliwrath.account.server
 
-class AccountServerStarter {
+object AccountServerStarter extends App{
+
+  System.out.println("Account server started")
 
 }
