@@ -1,6 +1,6 @@
 package ru.poliwrath.account.server
 
-import org.slf4j.{Logger, LoggerFactory}
+import org.slf4j.LoggerFactory
 
 object AccountServerStarter extends App{
 
