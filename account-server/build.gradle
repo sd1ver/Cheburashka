@@ -10,10 +10,14 @@ repositories {
 }
 
 dependencies {
-    compile group: 'org.scala-lang', name: 'scala-library', version: '2.13.0-M2'
+    compile group: 'org.scala-lang', name: 'scala-library', version: '2.12.3'
     compile group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+
+    compile group: 'com.typesafe.akka', name: 'akka-http_2.12', version: '10.0.10'
+    compile group: 'com.typesafe.akka', name: 'akka-stream_2.12', version: '2.5.4'
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: '2.5.4'
 
 
 
